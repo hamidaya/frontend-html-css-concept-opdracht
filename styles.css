@@ -1,52 +1,203 @@
-Table of Contents
-1. Global Styles
-2. Typography
-3. Layout
-3.1 Reusables
-3.2 Other
-4. Areas
-4.1 Header
-4.2 Introduction
-    etc.
-5. Media Queries
 
-     /* CSS Reset */
- #element { margin:0; padding:0; font-size:100%; line-height:1; }
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*////////////////////////*/
+
+/* ------------------------------- Global Styles -------------------------------- */
+:root {
+    margin: 0;
+    padding: 0;
+    --primary-color: #4845E4;
+    --body-fonts: 'Roboto', sans-serif;
+    --line-height: 1.5;
+}
+
+/* ------------------------------- Typography ----------------------------------- */
+
+body {
+   font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', sans-serif;
+  }
+
+/* --------------- 1.1 Header ------------------------- */
+
+header {
+    display: flex;
+    background-color: #4845E4;
+    padding: 50px;
+    color: white;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 300px;
+    list-style: none;
+}
+
+/* --------------- 1.2 Introduction ------------------- */
+.section-one {
+
+    display: flex;
+    background-color: white;
+    padding: 50px;
+    color: #4845E4;
+    justify-content: center;
+
+   }
+.action-one-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    max-width: 850px;
+}
+hamid
+.contactus {
+    margin-top: 100px;
+}
+
+/* --------------- 1.2 Main ------------------------- */
+
+.section-two {
+    display: flex;
+    background-color: #F3F6F9;
+    padding: 50px;
+    color: black;
+    justify-content: flex-end;
+
+}
+
+.action-two-container {
+    display: flex;
+    background-color: #F3F6F9;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: normal;
+    padding: 100px 0;
+    max-width: 850px;
+
+ }
+
+.section-three {
+    display: flex;
+    background-color: #F3F6F9;
+    padding: 50px;
+    color: #4845E4;
+    justify-content: center;
+
+}
+.action-three-container {
+    display: flex;
+    background-color: #F3F6F9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    max-width: 850px;
+}
+
+.section-four {
+    display: flex;
+    background-color: #F3F6F9;
+    padding: 50px;
+    color: #4845E4;
+    justify-content: center;
+
+}
+.action-four-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    max-width: 850px;
+
+}
 
 
 
 
-////////////////////////*/
+/*.container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-content: center;*/
+/*    margin: 150px;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*    width: 70%;*/
+/*    flex-wrap: wrap;*/
+/*    align-self: center;*/
+/*}*/
 
-/* ------------------------------- 1. Global Styles -------------------------------- */
+.button {
+    box-shadow: 1px 1px 1px rebeccapurple;
+    background: #ED4385;
+    width: 15%;
+    text-transform: uppercase;
+    font-size: 10px;
+    box-shadow: 0 0 15px -15px #000;
+    margin-top: 20px;
+}
+
+/*button{*/
+
+/*    display: flex;*/
+/*    background-color: #ED4385;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    position: absolute;*/
+/*}*/
 
 
-/* ------------------------------- 2. Typography ----------------------------------- */
+/* {*/
 
+/*    background-color: #ED4385;*/
+/*    align-self: center;*/
+/*    position: center;*/
+/*    margin: 80px;*/
+/*    flex-basis: 300px;*/
+/*}*/
+/*!* ------------------------------- 5. Media Queries -------------------------------- *!*/
 
+@media screen and (min-width: 768px) {
+    .button {
+        font-size: 14px;
+    }
+}
 
-/* ------------------------------- 3. Layout --------------------------------------- */
-
-
-
-/* --------------- 3.1 Reusables ----------------------- */
-
-
-
-/* --------------- 3.2 Other --------------------------- */
-
-
-
-/* ------------------------------- 4. Areas ---------------------------------------- */
-
-
-/* --------------- 4.1 Header ------------------------- */
-
-
-
-/* --------------- 4.2 Introduction ------------------- */
-
-
-
-/* ------------------------------- 5. Media Queries -------------------------------- */
-
+@media screen and (min-width: 992px) {
+    .button {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.header {
+    background-color: #64B6AC;
+    padding: 50px;
+}
+
+.example-one {
+    background-color: #FEE9E1;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #B09E99;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 4px;
+    flex-basis: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.box-one {
+    flex-grow: 1;
+}
+
+.box-two {
+    flex-grow: 3;
+}
+
+.box-three {
+    flex-grow: 1;
+}
+
+.example-two {
+    background-color: #FAD4C0;
+}
+
+.interface {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    background-color: #B09E99;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.content {
+    background-color: #FEE9E1;
+    flex-basis: 600px;
+    flex-grow: 10;
+    flex-shrink: 1;
+}
