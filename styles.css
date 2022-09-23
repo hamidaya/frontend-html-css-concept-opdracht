@@ -82,72 +82,34 @@ nav {
     padding: 100px 0;
     max-width: 850px;
 }
-hamid
+
 .contactus {
     margin-top: 100px;
 }
 
 /* --------------- 1.2 Main ------------------------- */
 
-.section-two {
+.section-project-one {
     display: flex;
     background-color: #F3F6F9;
-    padding: 50px;
-    color: black;
+   }
+.section-project-one-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F6F9;
+    padding:200px;
+    align-items: stretch;
+    align-items: center;
+     }
+
+.section-project-one-image {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-end;
 
-}
+    }
 
-.action-two-container {
-    display: flex;
-    background-color: #F3F6F9;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: normal;
-    padding: 100px 0;
-    max-width: 850px;
-
- }
-
-.section-three {
-    display: flex;
-    background-color: #F3F6F9;
-    padding: 50px;
-    color: #4845E4;
-    justify-content: center;
-
-}
-.action-three-container {
-    display: flex;
-    background-color: #F3F6F9;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0;
-    max-width: 850px;
-}
-
-.section-four {
-    display: flex;
-    background-color: #F3F6F9;
-    padding: 50px;
-    color: #4845E4;
-    justify-content: center;
-
-}
-.action-four-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0;
-    max-width: 850px;
-
-}
-
-
-
-
+laatste
 /*.container {*/
 /*    display: flex;*/
 /*    flex-direction: column;*/
