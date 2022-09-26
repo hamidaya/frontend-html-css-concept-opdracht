@@ -204,112 +204,36 @@ nav {
 
 .service-container {
     display: flex;
+    gap: 30px;
     background-color: white;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
-
-.first-service-text {
-    display: inline-flex;
-    flex-basis: auto;
+.service-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 550px;
     color: #7A7A7A;
-    padding: 5px;
-    width: 33.33%;
-    margin: auto;
     border: 3px solid purple;
-}
-.first-service-text > h1 {
-    text-align: center;
-    color: purple;
-}
-.first-service-txt > p {
-    text-align: center;
-
-}
-
-.second-service-text {
-    display: inline-flex;
-    flex-basis: auto;
-    color: #7A7A7A;
-    padding: 5px;
-    width: 400px;
-    border: 3px solid purple;
- }
-.second-service-text > h1 {
-    text-align: center;
-    color: purple;
-}
-.second-service-text > p {
-    text-align: center;
-}
-
-
-.third-service-text {
-    display: inline-flex;
-    color: #7A7A7A;
-    padding: 5px;
-    width: 400px;
-    border: 3px solid purple;
-
-}
-.third-service-text > h1 {
-    text-align: center;
-    color: purple;
-}
-.third-service-text > p {
-    text-align: center;
-}
-
-
-.fourth-service-text {
-    display: inline-flex;
-    color: #7A7A7A;
-    padding: 5px;
-    width: 400px;
-    border: 3px solid purple;
-
-}
-.fourth-service-text > h1 {
-    text-align: center;
-    color: purple;
-}
-.fourth-service-text > p {
-    text-align: center;
-}
-
-.fifth-service-text {
-    display: inline-flex;
-    color: #7A7A7A;
-    padding: 5px;
-    width: 400px;
-    border: 3px solid purple;
-
-}
-.fifth-service-text > h1 {
-    text-align: center;
-    color: purple;
-}
-.fifth-service-text > p {
-    text-align: center;
-}
-
-.sixth-service-text {
-    display: inline-flex;
     justify-content: center;
-    color: #7A7A7A;
-    padding: 5px;
-    width: 400px;
-    border: 3px solid purple;
 
 }
-.sixth-service-text > h1 {
+.service-text > h1 {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     color: purple;
-}
-.sixth-service-text > p {
-    text-align: center;
-}
+    flex-basis: 550px;
 
+}
+.service-txt > p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 550px;
+}
 
 .button {
     box-shadow: 1px 1px 1px rebeccapurple;
@@ -317,28 +241,10 @@ nav {
     width: 15%;
     text-transform: uppercase;
     font-size: 10px;
-    box-shadow: 0 0 15px -15px #000;
     margin-top: 20px;
+
 }
 
-/*button{*/
-
-/*    display: flex;*/
-/*    background-color: #ED4385;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    position: absolute;*/
-/*}*/
-
-
-/* {*/
-
-/*    background-color: #ED4385;*/
-/*    align-self: center;*/
-/*    position: center;*/
-/*    margin: 80px;*/
-/*    flex-basis: 300px;*/
-/*}*/
 /*!* ------------------------------- 5. Media Queries -------------------------------- *!*/
 
 @media screen and (min-width: 768px) {
