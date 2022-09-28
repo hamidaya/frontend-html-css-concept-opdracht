@@ -215,6 +215,7 @@ nav {
     justify-content: space-evenly;
 
 }
+
 .service-text {
     display: flex;
     flex-direction: column;
@@ -225,23 +226,22 @@ nav {
     aspect-ratio: 1;
 }
 
-
 .service-text > h1 {
     display: flex;
     flex-direction: row;
     color: purple;
     flex-basis: 100px;
-    justify-content: space-evenly;
 
 }
-.service-txt > p center {
+.service-txt > h3 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-basis: 300px;
+    flex-basis: 100px;
     align-items: center;
+    margin: 10px;
 
 }
+
 .form-outer-container {
     display: flex;
     background-color: #4845E4;
@@ -256,7 +256,7 @@ nav {
     color: white;
     flex-direction: column;
     justify-content: center;
-    padding:30px;
+    padding:1px;
 
 }
 
@@ -282,15 +282,32 @@ nav {
 }
 
 .button {
-    display: flex;
-    box-shadow: 1px 1px 1px rebeccapurple;
-    background: #ED4385;
-    width: 15%;
+    margin: 0;
+    height: 40px;
+    min-width:120px;
+    padding: 0;
+    background-color: deeppink;
+    color:white;
+    border:none;
+    border-radius: 18px;
+    font-size:14px;
     text-transform: uppercase;
-    font-size: 10px;
-    margin-top: 20px;
-
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+}
+footer span {
+    font-size: 12px;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+}
+
+
 
 /*!* ------------------------------- 5. Media Queries -------------------------------- *!*/
 
